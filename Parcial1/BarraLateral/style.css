@@ -1,0 +1,160 @@
+@media screen and (min-width: 901px)
+{
+    .menu
+{
+width: 20%;
+float: left;
+list-style: none;
+background: #796A41;
+height: 100vh;
+display: block;
+
+}
+
+.menu li{
+    list-style: none;
+    padding: 10px;
+    color: #ADAD8D;
+    cursor: pointer;
+    transition: all 300ms;
+    display: block;
+    width: 400px;
+}
+
+.menu li:hover{
+    background: rgba(0,0,0,0.2);
+    
+}
+
+.contenido
+{
+width: 75%;
+float: right;
+background: #58211E;
+margin: auto;
+margin-top: 40px;
+font-family: sans-serif;
+border: 2px solid white;
+color: white;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background: #903020;
+    position: absolute;
+}
+
+}
+
+@media screen and (min-width: 100px) and (max-width: 599px)
+{
+    .menu
+{
+width: 100%;
+height: auto;
+list-style: none;
+background: #796A41;
+display: inline-block;
+margin: auto;
+margin-top: 40px;
+
+}
+
+.menu li{
+    list-style: none;
+    padding: 10px 5px;
+    color: #ADAD8D;
+    cursor: pointer;
+    transition: all 300ms;
+    display: inline-block;
+    width: 52px;
+}
+
+li ul {
+    position: absolute;
+
+};
+
+.menu li:hover{
+    background: rgba(0,0,0,0.2);
+    
+}
+
+.contenido img{
+    width: 100%;
+    border: 4px solid white;
+    margin-top: 40px;
+}
+
+.contenido
+{
+width: 100%;
+float: right;
+background: #58211E;
+margin: auto;
+margin-top: 40px;
+font-family: sans-serif;
+border: 2px solid white;
+color: white;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background: #903020;
+    position: absolute;
+}
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px)
+{
+    .menu
+{
+width: 100%;
+float:inline-start;
+list-style: none;
+background: #796A41;
+height: 100vh;
+display: block;
+margin: auto;
+margin-top: 40px;
+
+}
+
+.menu li{
+    list-style: none;
+    padding: 16px;
+    color: #ADAD8D;
+    cursor: pointer;
+    transition: all 300ms;
+    display: block;
+    width: 100px;
+}
+
+.menu li:hover{
+    background: rgba(0,0,0,0.2);
+    
+}
+
+.contenido
+{
+width: 100%;
+float: right;
+background: #58211E;
+margin: auto;
+margin-top: 40px;
+font-family: sans-serif;
+border: 2px solid white;
+color: white;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background: #903020;
+    position: absolute;
+}
+
+}
