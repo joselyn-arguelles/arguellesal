@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 04-06-2021 a las 04:46:15
+-- Tiempo de generación: 04-06-2021 a las 05:41:34
 -- Versión del servidor: 10.4.18-MariaDB
 -- Versión de PHP: 8.0.3
 
@@ -21,8 +21,7 @@ SET time_zone = "+00:00";
 -- Base de datos: `arguelles`
 --
 
-CREATE DATABASE arguelles;
-USE arguelles;
+CREATE DATABASE arguelles
 -- --------------------------------------------------------
 
 --
@@ -40,9 +39,9 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `usuario`, `password`) VALUES
-(1, 'joselyn', '1234'),
-(2, 'Jose', '1209'),
-(3, 'ivan', '2046');
+(1, 'joselyn', 'arguelles'),
+(2, 'Jose', 'perez'),
+(3, 'ivan', 'lopez');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
