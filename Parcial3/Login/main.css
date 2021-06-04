@@ -1,0 +1,24 @@
+body{
+    background: #3C8E6A ;
+    padding-top: 25vh;
+}
+
+form{
+    background: #BED9CD;
+}
+
+.form-container
+{
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0ox 0px 10px 0px;
+}
+
+.bg
+{
+    width: 110px;
+    height: 110px;
+    position: static;
+    top: -50px;
+    left: 140px;
+}
