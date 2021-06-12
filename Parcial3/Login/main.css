@@ -1,6 +1,11 @@
 body{
     background: #3C8E6A ;
     padding-top: 25vh;
+    background-size: cover;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 form{
@@ -22,3 +27,4 @@ form{
     top: -50px;
     left: 140px;
 }
+
